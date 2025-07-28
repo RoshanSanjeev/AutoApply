@@ -1,0 +1,100 @@
+{
+  "name": "Your Name",
+  "email": "your.email@example.com",
+  "phone": "+1 (555) 123-4567",
+  "linkedin": "https://linkedin.com/in/yourprofile",
+  "github": "https://github.com/yourusername",
+  "location": "San Francisco, CA",
+  "summary": "Experienced AI/ML Engineer with 5+ years developing scalable machine learning systems and deep learning applications. Proven track record in building production ML pipelines, optimizing model performance, and leading cross-functional teams. Passionate about advancing AI technology and its real-world applications.",
+  "skills": [
+    "Python", "PyTorch", "TensorFlow", "Scikit-learn", "CUDA", "Docker", "Kubernetes",
+    "AWS", "GCP", "MLOps", "Deep Learning", "Computer Vision", "NLP", "Reinforcement Learning",
+    "Data Engineering", "SQL", "NoSQL", "Git", "CI/CD", "Agile", "REST APIs"
+  ],
+  "experience": [
+    {
+      "position": "Senior AI/ML Engineer",
+      "company": "TechCorp Inc.",
+      "duration": "2021-Present",
+      "location": "San Francisco, CA",
+      "responsibilities": [
+        "Lead development of computer vision models achieving 95% accuracy for autonomous vehicle perception",
+        "Built end-to-end ML pipeline processing 10TB+ daily data using Apache Spark and Kubernetes",
+        "Optimized deep learning inference latency by 60% through CUDA kernels and TensorRT optimization",
+        "Mentored team of 5 junior engineers and established ML best practices across organization",
+        "Collaborated with product teams to deploy 15+ ML models serving 1M+ users daily"
+      ]
+    },
+    {
+      "position": "Machine Learning Engineer",
+      "company": "DataTech Solutions",
+      "duration": "2019-2021",
+      "location": "Mountain View, CA",
+      "responsibilities": [
+        "Developed NLP models for sentiment analysis and text classification with 90%+ F1 score",
+        "Implemented real-time recommendation system increasing user engagement by 35%",
+        "Created MLOps infrastructure using Docker, Jenkins, and AWS SageMaker for model deployment",
+        "Designed A/B testing framework for ML model evaluation and performance monitoring",
+        "Reduced model training time by 40% through distributed training on GPU clusters"
+      ]
+    },
+    {
+      "position": "Data Scientist",
+      "company": "Analytics Pro",
+      "duration": "2018-2019",
+      "location": "Palo Alto, CA",
+      "responsibilities": [
+        "Built predictive models for customer churn reduction achieving $2M annual revenue impact",
+        "Developed time series forecasting models for inventory optimization with 85% accuracy",
+        "Created interactive dashboards using Plotly and Streamlit for business stakeholders",
+        "Performed statistical analysis on large datasets to drive data-driven business decisions",
+        "Collaborated with engineering teams to productionize models and ensure scalability"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "institution": "Stanford University",
+      "year": "2018",
+      "location": "Stanford, CA",
+      "details": "Specialization in Artificial Intelligence and Machine Learning. GPA: 3.8/4.0"
+    },
+    {
+      "degree": "Bachelor of Science in Computer Engineering",
+      "institution": "University of California, Berkeley",
+      "year": "2016",
+      "location": "Berkeley, CA",
+      "details": "Magna Cum Laude, Phi Beta Kappa. GPA: 3.7/4.0"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Multi-Modal AI Assistant",
+      "description": "Built conversational AI system combining vision and language understanding",
+      "technologies": ["PyTorch", "Transformers", "CLIP", "FastAPI", "React"],
+      "achievements": ["Published paper at NeurIPS 2023", "Open-sourced with 500+ GitHub stars"]
+    },
+    {
+      "name": "Real-time Object Detection System",
+      "description": "Developed edge deployment solution for industrial quality control",
+      "technologies": ["YOLO", "TensorRT", "OpenCV", "NVIDIA Jetson"],
+      "achievements": ["Deployed in 3 manufacturing facilities", "99.2% detection accuracy"]
+    }
+  ],
+  "certifications": [
+    "AWS Certified Machine Learning - Specialty",
+    "Google Cloud Professional ML Engineer",
+    "NVIDIA Deep Learning Institute - Computer Vision",
+    "Certified Kubernetes Administrator (CKA)"
+  ],
+  "publications": [
+    "Efficient Neural Architecture Search for Computer Vision (NeurIPS 2023)",
+    "Scalable Multi-Modal Learning for Industrial Applications (ICML 2022)"
+  ],
+  "awards": [
+    "Best Paper Award - International Conference on Machine Learning 2022",
+    "Innovation Award - TechCorp Inc. 2023",
+    "Dean's List - Stanford University 2017-2018"
+  ]
+}

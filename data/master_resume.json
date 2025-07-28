@@ -1,0 +1,179 @@
+{
+  "personal_info": {
+    "name": "Your Full Name",
+    "email": "your.email@example.com",
+    "phone": "+1234567890",
+    "linkedin": "https://linkedin.com/in/yourprofile",
+    "github": "https://github.com/yourusername",
+    "portfolio": "https://yourportfolio.com",
+    "location": "City, State",
+    "website": ""
+  },
+  "professional_summary": "Dynamic and results-driven professional with X+ years of experience in [your field]. Proven track record of [key achievements]. Passionate about [relevant interests] and committed to delivering high-quality solutions.",
+  
+  "skills": {
+    "programming_languages": ["Python", "JavaScript", "Java", "C++"],
+    "frameworks": ["React", "Node.js", "Django", "Flask"],
+    "databases": ["PostgreSQL", "MySQL", "MongoDB"],
+    "cloud_platforms": ["AWS", "Google Cloud", "Azure"],
+    "tools": ["Git", "Docker", "Kubernetes", "Jenkins"],
+    "soft_skills": ["Project Management", "Team Leadership", "Problem Solving", "Communication"]
+  },
+  
+  "experience": [
+    {
+      "position": "Senior Software Engineer",
+      "company": "Tech Company Inc.",
+      "location": "San Francisco, CA",
+      "duration": "2022 - Present",
+      "start_date": "2022-01",
+      "end_date": "Present",
+      "is_current": true,
+      "responsibilities": [
+        "Led development of microservices architecture serving 1M+ users daily",
+        "Implemented automated testing pipelines reducing deployment time by 40%",
+        "Mentored junior developers and conducted code reviews",
+        "Collaborated with product managers to define technical requirements"
+      ],
+      "technologies": ["Python", "AWS", "Docker", "PostgreSQL"],
+      "achievements": [
+        "Reduced system latency by 30% through optimization",
+        "Increased test coverage from 60% to 95%"
+      ]
+    },
+    {
+      "position": "Software Engineer",
+      "company": "Startup Corp",
+      "location": "Austin, TX",
+      "duration": "2020 - 2022",
+      "start_date": "2020-06",
+      "end_date": "2022-01",
+      "is_current": false,
+      "responsibilities": [
+        "Developed full-stack web applications using React and Node.js",
+        "Designed and implemented RESTful APIs",
+        "Participated in agile development process and sprint planning",
+        "Collaborated with UX/UI designers to implement user interfaces"
+      ],
+      "technologies": ["JavaScript", "React", "Node.js", "MongoDB"],
+      "achievements": [
+        "Built user authentication system used by 50k+ users",
+        "Improved application performance by 25%"
+      ]
+    },
+    {
+      "position": "Junior Developer",
+      "company": "Digital Agency",
+      "location": "Remote",
+      "duration": "2019 - 2020",
+      "start_date": "2019-03",
+      "end_date": "2020-06",
+      "is_current": false,
+      "responsibilities": [
+        "Developed responsive websites using HTML, CSS, and JavaScript",
+        "Maintained and updated existing client websites",
+        "Worked with designers to implement pixel-perfect designs",
+        "Provided technical support to clients"
+      ],
+      "technologies": ["HTML", "CSS", "JavaScript", "WordPress"],
+      "achievements": [
+        "Delivered 20+ client projects on time and under budget",
+        "Received 'Employee of the Month' award twice"
+      ]
+    }
+  ],
+  
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "institution": "University of Technology",
+      "location": "City, State",
+      "year": "2019",
+      "graduation_date": "2019-05",
+      "gpa": "3.8/4.0",
+      "relevant_coursework": ["Data Structures", "Algorithms", "Database Systems", "Software Engineering"],
+      "honors": ["Magna Cum Laude", "Dean's List"]
+    }
+  ],
+  
+  "projects": [
+    {
+      "name": "E-commerce Platform",
+      "description": "Full-stack e-commerce application with payment processing",
+      "technologies": ["React", "Node.js", "Stripe API", "PostgreSQL"],
+      "date": "2023",
+      "url": "https://github.com/yourusername/ecommerce",
+      "details": [
+        "Built secure payment processing system using Stripe API",
+        "Implemented real-time inventory management",
+        "Designed responsive UI supporting mobile and desktop",
+        "Deployed on AWS with auto-scaling capabilities"
+      ]
+    },
+    {
+      "name": "Task Management API",
+      "description": "RESTful API for task management with team collaboration features",
+      "technologies": ["Python", "FastAPI", "PostgreSQL", "Redis"],
+      "date": "2023",
+      "url": "https://github.com/yourusername/taskapi",
+      "details": [
+        "Designed RESTful API with comprehensive documentation",
+        "Implemented JWT authentication and authorization",
+        "Added real-time notifications using WebSockets",
+        "Achieved 99.9% uptime in production"
+      ]
+    }
+  ],
+  
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect",
+      "issuer": "Amazon Web Services",
+      "date": "2023-06",
+      "expiry_date": "2026-06",
+      "credential_id": "AWS-123456"
+    },
+    {
+      "name": "Google Cloud Professional Developer",
+      "issuer": "Google Cloud",
+      "date": "2022-08",
+      "expiry_date": "2024-08",
+      "credential_id": "GCP-789012"
+    }
+  ],
+  
+  "achievements": [
+    "Led team that won company hackathon with AI-powered solution",
+    "Published technical blog post that received 10k+ views",
+    "Spoke at local tech meetup about microservices architecture",
+    "Contributed to open-source project with 2k+ GitHub stars"
+  ],
+  
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "Native"
+    },
+    {
+      "language": "Spanish",
+      "proficiency": "Conversational"
+    }
+  ],
+  
+  "volunteer_experience": [
+    {
+      "role": "Coding Instructor",
+      "organization": "Local Coding Bootcamp",
+      "duration": "2021 - Present",
+      "description": "Teach programming fundamentals to underrepresented communities"
+    }
+  ],
+  
+  "metadata": {
+    "last_updated": "2024-01-01",
+    "version": "1.0",
+    "preferred_format": "latex",
+    "target_roles": ["Software Engineer", "Full Stack Developer", "Backend Engineer"],
+    "years_experience": 5
+  }
+}

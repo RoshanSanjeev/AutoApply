@@ -1,0 +1,34 @@
+[
+  {
+    "company": "NVIDIA",
+    "position": "AI Software Engineer",
+    "job_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Software-Engineer_JR1234567",
+    "application_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/AI-Software-Engineer_JR1234567/apply",
+    "description": "We are looking for an AI Software Engineer to join our team developing cutting-edge AI and machine learning solutions. You will work on neural networks, deep learning frameworks, and GPU-accelerated computing. Requirements include strong Python programming skills, experience with PyTorch/TensorFlow, and knowledge of CUDA programming.",
+    "required_skills": ["Python", "PyTorch", "TensorFlow", "CUDA", "Machine Learning", "Deep Learning"],
+    "location": "Santa Clara, CA",
+    "remote_ok": false,
+    "salary_range": "$150k-200k"
+  },
+  {
+    "company": "OpenAI",
+    "position": "Machine Learning Engineer",
+    "job_url": "https://openai.com/careers/machine-learning-engineer",
+    "application_url": "https://jobs.lever.co/openai/example-job-url",
+    "description": "Join our team to develop and improve large language models and AI systems. You'll work on training infrastructure, model optimization, and deployment at scale. We're looking for someone with strong ML background, experience with distributed training, and passion for advancing AI safety.",
+    "required_skills": ["Python", "PyTorch", "Distributed Training", "MLOps", "Transformers"],
+    "location": "San Francisco, CA",
+    "remote_ok": true,
+    "salary_range": "$200k-300k"
+  },
+  {
+    "company": "Google DeepMind",
+    "position": "Research Scientist - AI",
+    "job_url": "https://deepmind.google/careers/research-scientist-ai",
+    "description": "Research and develop novel AI algorithms and architectures. Publish high-impact research and collaborate with world-class researchers. PhD in Computer Science, Machine Learning, or related field required. Experience with reinforcement learning, computer vision, or NLP preferred.",
+    "required_skills": ["Python", "TensorFlow", "Research", "PhD", "Reinforcement Learning", "Computer Vision"],
+    "location": "London, UK",
+    "remote_ok": false,
+    "salary_range": "£120k-180k"
+  }
+]

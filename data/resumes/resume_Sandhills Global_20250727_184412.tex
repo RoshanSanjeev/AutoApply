@@ -1,0 +1,177 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Your Name} \\ \vspace{1pt}
+    \small +1 (555) 123-4567 $|$ \href{mailto:your.email@example.com}{your.email@example.com} $|$ 
+    \href{https://linkedin.com/in/yourprofile}{https://linkedin.com/in/yourprofile}
+\end{center}
+
+
+%-----------PROFESSIONAL SUMMARY-----------
+\section{Professional Summary}
+\small{Results-driven AI/ML Engineer with 5+ years of experience in developing scalable, industry-leading software solutions using modern tools and technologies. Proven track record in leveraging cutting-edge innovations to drive business growth and efficiency.}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Senior AI/ML Engineer}{2021-Present}
+      {TechCorp Inc.}{San Francisco, CA}
+      \resumeItemListStart
+        \resumeItem{ Spearheaded the development of **industry-leading** computer vision models, achieving 95\textbackslash{}% accuracy for autonomous vehicle perception}
+        \resumeItem{Designed and implemented **modern, scalable** end-to-end ML pipelines processing 10TB+ daily data using Apache Spark and Kubernetes}
+        \resumeItem{Successfully **optimized** deep learning inference latency by 60\textbackslash{}% through CUDA kernels and TensorRT optimization, enhancing overall system efficiency}
+        \resumeItem{Championed **best practices in software development** across the organization, mentoring a team of 5 junior engineers}
+        \resumeItem{Collaborated with product teams to **deploy 15+ ML models**, serving 1M+ users daily and driving business growth}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Machine Learning Engineer}{2019-2021}
+      {DataTech Solutions}{Mountain View, CA}
+      \resumeItemListStart
+        \resumeItem{Developed **high-performance NLP models** for sentiment analysis and text classification, achieving 90\textbackslash{}%+ F1 score}
+        \resumeItem{Implementing a **real-time recommendation system** that increased user engagement by 35\textbackslash{}%, leveraging modern software development practices}
+        \resumeItem{Created **MLOps infrastructure** using Docker, Jenkins, and AWS SageMaker for streamlined model deployment}
+        \resumeItem{Designed an **A/B testing framework** for data-driven ML model evaluation and performance monitoring}
+        \resumeItem{Reduced model training time by 40\textbackslash{}% through **distributed training on GPU clusters**, enhancing development efficiency}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Data Scientist}{2018-2019}
+      {Analytics Pro}{Palo Alto, CA}
+      \resumeItemListStart
+        \resumeItem{Built **predictive models** for customer churn reduction, resulting in a \textbackslash{}$2M annual revenue impact}
+        \resumeItem{Developed **time series forecasting models** for inventory optimization with 85\textbackslash{}% accuracy, informing business decisions}
+        \resumeItem{Created **interactive dashboards** using Plotly and Streamlit for business stakeholders, enhancing data-driven insights}
+        \resumeItem{Performed **statistical analysis** on large datasets to inform business strategy}
+        \resumeItem{Collaborated with engineering teams to **productionize models**, ensuring scalability and reliability}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Stanford University}{Stanford, CA}
+      {Master of Science in Computer Science}{2018}
+    \resumeSubheading
+      {University of California, Berkeley}{Berkeley, CA}
+      {Bachelor of Science in Computer Engineering}{2016}
+\resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Multi-Modal AI Assistant} $|$ \emph{PyTorch, Transformers, CLIP, FastAPI, React}}{}
+          \resumeItemListStart
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{Real-time Object Detection System} $|$ \emph{YOLO, TensorRT, OpenCV, NVIDIA Jetson}}{}
+          \resumeItemListStart
+          \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+
+\end{document}
